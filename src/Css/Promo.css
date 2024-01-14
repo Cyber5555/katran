@@ -1,0 +1,15 @@
+.Promo {
+  max-width: 1440px;
+  margin: 81px auto 0;
+  padding: 10px 0;
+  width: 90%;
+  min-height: 50vh;
+}
+
+
+.Promo--title {
+  color: #06364b;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}

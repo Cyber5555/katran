@@ -1,0 +1,44 @@
+.Search {
+  max-width: 1440px;
+  margin: 81px auto 0;
+  padding: 10px 0;
+  width: 90%;
+  min-height: 50vh;
+  height: auto;
+}
+
+.Search--title {
+  color: #06364b;
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.Search__input--parent {
+  width: 100%;
+  height: 45px;
+  border: 1px solid #06364b;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.Search__input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  padding: 0 40px 0 10px;
+}
+
+.Search__icon--parent {
+  width: 45px;
+  height: 45px;
+  background: #06364b;
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: grid;
+  place-items: center;
+}

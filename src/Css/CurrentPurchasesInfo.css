@@ -1,0 +1,206 @@
+.CurrentPurchasesInfo {
+  width: 100%;
+}
+
+.CurrentPurchasesInfo--goBack__download {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 21px;
+}
+
+.CurrentPurchasesInfo--goBack {
+  color: #06364b;
+  font-size: 13px;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.CurrentPurchasesInfo__information--parent {
+  border: 1px solid #dbdbdb;
+  background: #fff;
+  padding: 26px 0 0;
+}
+
+.CurrentPurchasesInfo__information--title {
+  text-align: center;
+  color: #06364b;
+  font-size: 20px;
+}
+
+.CurrentPurchasesInfo__information__first__box--padding {
+  padding: 0 15px;
+}
+
+.CurrentPurchasesInfo__information__first__box--title__parent {
+  width: 100%;
+  background: #f5f5f5;
+  padding: 0 32px;
+  display: grid;
+  grid-template-columns: 30% 20% 22% 10% 0.5fr;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.CurrentPurchasesInfo__information__first__box--title__parent:first-of-type {
+  margin-top: 21px;
+}
+
+.CurrentPurchasesInfo__information__first__box--title {
+  border-right: 1px solid #f5f5f5;
+  padding: 15px 0;
+  height: 100%;
+  color: #1e435399;
+  font-size: 14px;
+}
+
+.CurrentPurchasesInfo__information__first__box--item--order {
+  width: 100%;
+  padding: 0 32px;
+  display: grid;
+  grid-template-columns: 30% 20% 22% 10% 0.5fr;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.CurrentPurchasesInfo__information__first__box--item--order--text {
+  padding: 15px 0;
+  height: 100%;
+  color: #06364b;
+  font-size: 17px;
+  border-right: 1px solid #f5f5f5;
+}
+
+.CurrentPurchasesInfo__information__first__box--item--order p:last-of-type {
+  border: none;
+}
+
+.CurrentPurchasesInfo__information__first__box--item {
+  width: 100%;
+  padding: 0 17px;
+  display: grid;
+  grid-template-columns: 30% 20% 22% 10% 0.5fr;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f5f5f5;
+}
+
+.CurrentPurchasesInfo__information__first__box--item p {
+  padding: 15px 0;
+  height: 100%;
+  border-right: 1px solid #f5f5f5;
+}
+
+.CurrentPurchasesInfo__information__first__box--item p:last-of-type {
+  border: none;
+}
+
+.CurrentPurchasesInfo__payment_methods--parent {
+  padding: 8px 17px;
+}
+
+.CurrentPurchasesInfo__payment_methods--parent.first {
+  margin-top: 22px;
+}
+
+.CurrentPurchasesInfo__payment_methods {
+  padding: 14px 0;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+.CurrentPurchasesInfo__payment_methods.last {
+  border: none;
+}
+
+.CurrentPurchasesInfo__payment_methods--title {
+  color: #969696;
+  font-size: 14px;
+}
+
+.CurrentPurchasesInfo__payment_methods--text {
+  color: #06364b;
+  font-size: 16px;
+}
+
+.CurrentPurchasesInfo__payment_methods--total__price {
+  border-top: 1px solid #e1e1e1;
+  color: #06364b;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 24px 17px 28px;
+}
+
+.CurrentPurchasesInfo__information__first__box--name {
+  color: #06364b;
+  font-size: 17px;
+}
+
+.CurrentPurchasesInfo__information__first__box--price {
+  color: #e72971;
+  font-weight: 500;
+  font-size: 21px;
+}
+
+.CurrentPurchasesInfo__information__first__box--sale {
+  color: #06364b;
+  font-size: 17px;
+}
+
+.CurrentPurchasesInfo__information__first__box--count {
+  color: #06364b;
+  font-size: 15px;
+}
+
+.CurrentPurchasesInfo__information__first__box--total__price {
+  color: #e72971;
+
+  font-weight: 500;
+  font-size: 21px;
+  border: none;
+}
+
+.CurrentPurchasesInfo__borderButton {
+  border-radius: 20px;
+  outline: none;
+  border: 0.5px solid #06364b;
+  background: #fff;
+  color: #06364b;
+
+  font-weight: 500;
+  font-size: 16px;
+  padding: 11px 87px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 620px) {
+  .CurrentPurchasesInfo__information__first__box--item {
+    grid-template-columns: 1fr;
+    margin-bottom: 10px;
+  }
+
+  .CurrentPurchasesInfo__information__first__box--title__parent {
+    padding: 0;
+  }
+
+  .CurrentPurchasesInfo__information__first__box--item p {
+    border: none;
+    padding: 15px 0;
+  }
+  .CurrentPurchasesInfo__information__first__box--title {
+    padding: 0 !important;
+  }
+
+  .CurrentPurchasesInfo__information__first__box--item--order {
+    grid-template-rows: repeat(3, auto);
+    grid-template-columns: 1fr;
+    margin-bottom: 20px;
+  }
+
+  .CurrentPurchasesInfo__information__first__box--item--order--text {
+    border: none;
+    border-bottom: 1px solid #f5f5f5;
+  }
+}

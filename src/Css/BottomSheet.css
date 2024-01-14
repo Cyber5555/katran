@@ -1,0 +1,59 @@
+.BottomSheet {
+  visibility: hidden;
+  overflow: hidden;
+  position: fixed;
+  background: #061b2400;
+  inset: 0;
+  transition:
+    visibility 1s linear,
+    background 1s linear;
+  z-index: 10;
+}
+
+.BottomSheet.opened {
+  visibility: visible;
+  background: #061b2499;
+  inset: 0;
+  transition: visibility 0.5s linear;
+}
+
+.BottomSheet__container {
+  position: absolute;
+  left: 0;
+  bottom: -80%;
+  height: 80%;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 20px 20px 0 0;
+  padding: 20px;
+  transition: bottom 0.5s linear 0.5s;
+}
+
+.BottomSheet__container.opened {
+  bottom: 0%;
+  transition: bottom 0.5s linear 0.5s;
+}
+
+.BottomSheet__close--parent {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+.BottomSheet__close--icon {
+  float: right;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.BottomSheet__children--renderer {
+  overflow-y: auto;
+  height: 90%;
+  margin-top: 10px;
+}
+
+.BottomSheet--seafood {
+  margin-top: 20px;
+}

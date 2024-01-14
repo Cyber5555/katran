@@ -1,0 +1,125 @@
+{
+  "homePage": {
+    "cordial": "Թոփ վաճառք",
+    "SeafoodReadyFood": "Ծովամթերք / Պատրաստի սնունդ"
+  },
+  "LoginPopup": {
+    "title": "Բարի գալուստ",
+    "subTitle": "Մուտքագրեք ձեր տվյալները հաշիվ մուտք գործելու համար",
+    "email": "Էլ․ հասցե",
+    "password": "Գաղտնաբառ",
+    "forgotPassword": "Մոռացե՞լ եք գաղտնաբառը",
+    "haveAccount": "Դեռ չունե՞ք անձնական հաշիվ",
+    "registration": "Գրանցվել",
+    "signIn": "Մուտք"
+  },
+  "ProductList": {
+    "select": "Սորտավորել",
+    "ByPopularity": "Ըստ ավելացման",
+    "CheapFirst": "Ըստ գնի աճման",
+    "ExpensiveFirst": "Ըստ գնի նվազման",
+    "newProduct": "նոր ապրանքներ",
+    "productsCount": "ապրանք"
+  },
+  "Brands": {
+    "Brands": "Ապրանքանիշեր"
+  },
+  "SingleProduct": {
+    "UnitOfMeasurement": "Չափման միավոր",
+    "WeRecommend": "Խորհուրդ ենք տալիս"
+  },
+  "Profile": {
+    "NewProducts": "Նոր ապրանքներ",
+    "PersonalInformation": "Անձնական տվյալներ",
+    "Favorites": "Հավանածներ",
+    "Baskets": "Զամբյուղ",
+    "CurrentPurchases": "Ընթացիկ գնումներ",
+    "Archive": "Արխիվ",
+    "Settings": "Կարգավորումներ",
+    "Exit": "Ելք"
+  },
+  "Basket": {
+    "OrderNumber": "Պատվերի համար",
+    "FormingAnOrder": "Պատվերի ձևակերպում",
+    "Total": "Ընդհանուր",
+    "NameSurname": "Անուն, ազգանուն ",
+    "Phone": "Հեռ․ ",
+    "Pickup": "Վերցնել տեղում",
+    "Delivery": "Առաքում",
+    "SelectDeliveryType": "Ընտրեք առաքման տեսակը",
+    "DeliveryTime": "Առաքման ժամ",
+    "Region": "Տարածաշրջան",
+    "Address": "Հասցե",
+    "Entrance": "Մուտք",
+    "Floor": "Հարկ",
+    "IntercomNumber": "Դոմոֆոնի համարը",
+    "AdditionalNotes": "Հավելյալ նշումներ",
+    "CashPayment": "Կանխիկ վճարում",
+    "OnlinePayment": "Օնլայն վճարում",
+    "SelectPaymentMethod": "Ընտրեք վճարման եղանակը",
+    "SelectRegion": "Ընտրել տարածաշրջան",
+    "Information": "Օնլայն վճարում կատարելու համար հարկավոր է գրացվել կամ մուտք գործել",
+    "Today": "Այսօր",
+    "Tomorrow": "Վաղը",
+    "Pay": "Վճարել",
+    "Edit": "Խմբագրել",
+    "PaymentAmount": "Վճարման գումարը",
+    "PaymentMethod": "Վճարման տեսակ",
+    "Pick-upPoint": "Վերցման կետ"
+  },
+  "BasketPopup": {
+    "ThereAreItemsInYourCartWorth1": "Ձեր զամբյուղում առկա է",
+    "ThereAreItemsInYourCartWorth2": "ապրանք, ընդհանուր գնով",
+    "Close": "Փակել",
+    "Basket": "Զամյուղ",
+    "Order": "Պատվիրել"
+  },
+  "CheckedProductList": {
+    "Name": "Անվանում",
+    "Price": "Գին",
+    "Discount": "Զեղչ",
+    "Quantity": "Քանակ",
+    "Sum": "Գումար"
+  },
+  "Settings": {
+    "CurrentPassword": "Ընթացիկ գաղտնաբառ ",
+    "NewPassword": "Նոր գաղտնաբառ ",
+    "RepeatPassword": "Կրկնեք գաղտնաբառը ",
+    "Save": "Պահպանել"
+  },
+  "DownloadApp": {
+    "Download": "Ներբեռնեք մեր հավելվածը"
+  },
+  "ProductsInMainPage": {
+    "New": "Նորույթ",
+    "NotAvailable": "Առկա չէ"
+  },
+  "Register": {
+    "RetailBuyer": "Մանրածախ գնորդ",
+    "WholesaleBuyer": "Մեծածախ գնորդ",
+    "IAgree": "Սեղմելով «Գրանցվել» կոճակը, դուք համաձայնվում եք տվյալների մշակման քաղաքականությանը",
+    "CompanyName": "Ընկերության անվանում",
+    "INN": "ՀՎՀՀ",
+    "Bank": "Բանկ",
+    "BankAccount": "Բանկային հաշվեհամար",
+    "LegalAddress": "Իրավաբանական հասցե"
+  },
+  "Archive": {
+    "Date": "Ամսաթիվ",
+    "OrderConfirmed": "Պատվերը հաստատված է",
+    "Time": "Ժամ",
+    "OrderStatus": "Պատվերի կարգավիճակ",
+    "OrderDetails": "Պատվերի մանրամասներ",
+    "SaveCopy": "Պահպանել կրկնօրինակը"
+  },
+  "ArchiveInfo": {
+    "DeliveryMethod": "Առաքման տեսակ"
+  },
+  "TabNavigator": {
+    "Seafood": "Ծովամթերք"
+  },
+  "Search": {
+    "SiteSearch": "Որոնում",
+    "Result": "Որոնման արդյունքները"
+  }
+}

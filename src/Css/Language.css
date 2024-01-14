@@ -1,0 +1,56 @@
+.Language {
+  width: 119px;
+  height: 36px;
+  border-radius: 100px;
+  border: 0.8px solid rgba(255, 255, 255, 0.56);
+  color: #fff;
+  font-size: 11px;
+  text-transform: capitalize;
+  background-color: transparent;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.Language__dropdown {
+  display: none;
+}
+
+.Language__dropdown.opened {
+  display: block;
+  position: absolute;
+  top: calc(100% + 15px);
+  right: 10px;
+  visibility: visible;
+  width: auto;
+  width: 156px;
+  padding: 10px 20px;
+  opacity: 1;
+  border-radius: 7px;
+  background: #fff;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+.Language__dropdown.opened > li {
+  font-size: 16px;
+  padding: 13px 0;
+  text-align: right;
+  white-space: pre;
+  color: #06364b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.Language__dropdown > li:not(:last-of-type) {
+  border-bottom: 1px solid #06364b1a;
+}
+
+@media screen and (max-width: 1024px) {
+  .Language {
+    width: 36px;
+  }
+}

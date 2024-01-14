@@ -1,0 +1,147 @@
+.Input--parent {
+  width: 330px;
+}
+
+.Input--title {
+  color: rgba(30, 67, 83, 0.6);
+  font-size: 15px;
+  margin-bottom: 9px;
+}
+
+.Input--title > span {
+  color: #f00;
+  font-size: 15px;
+}
+
+.Input {
+  border-radius: 3px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+  width: 100%;
+  height: 46px;
+  outline: none;
+  padding: 0 16px;
+  caret-color: #dfdfdf;
+}
+
+.Input::-webkit-inner-spin-button,
+.Input::-webkit-outer-spin-button {
+  display: none;
+}
+
+.CheckInput--parent {
+  width: fit-content;
+  padding: 0 22px;
+  height: 57px;
+  border-radius: 3px;
+  border: 0.5px solid #9e9e9e;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.CheckInput {
+  appearance: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 0.5px solid #06364b;
+  background: #fff;
+  position: relative;
+}
+
+.CheckInput::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  background: url("../Assets/icons/check.svg") no-repeat center / contain;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 0.3s;
+}
+
+.CheckInput:checked::before {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.CheckInput--span {
+  font-size: 18px;
+  white-space: pre;
+  color: #06364b;
+}
+
+.SelectInput {
+  width: 330px;
+  height: 46px;
+  border: 1px solid #dfdfdf;
+  border-radius: 3px;
+}
+
+.Input__error-message {
+  color: red;
+}
+
+.TextArea {
+  border-radius: 3px;
+  border: 1px solid #dfdfdf;
+  background: #fff;
+  width: 100%;
+  height: 148px;
+  outline: none;
+  padding: 16px;
+  caret-color: #dfdfdf;
+  resize: none;
+}
+
+.CV__upload--parent {
+  width: 330px;
+  position: relative;
+}
+
+.CV__upload {
+  border-radius: 3px;
+  border: 1px dashed #dfdfdf;
+  background: #fff;
+  width: 100%;
+  height: 46px;
+  outline: none;
+  color: transparent;
+  cursor: pointer;
+}
+
+.CV__upload::file-selector-button {
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.CV__upload--placeholder {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 46px;
+  outline: none;
+  padding: 0 5px;
+  user-select: none;
+  cursor: pointer;
+  text-shadow: 1px 1px #fff;
+  font-size: 12px;
+  color: #1e435399;
+}
+
+@media screen and (max-width: 375px) {
+  .Input--title {
+    font-size: 14px;
+  }
+}

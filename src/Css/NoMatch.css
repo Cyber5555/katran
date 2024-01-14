@@ -1,0 +1,41 @@
+.NoMatch {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100vh;
+}
+
+.NoMatch--page__name {
+  color: #06364b;
+  font-size: 25px;
+}
+
+.NoMatch--error_code {
+  color: #06364b;
+  font-weight: 900;
+  font-size: 292px;
+}
+
+@media screen and (max-width: 1440px) {
+  .KatranError {
+    width: 70%;
+  }
+
+  .NoMatch--error_code {
+    font-size: 200px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .NoMatch--error_code {
+    font-size: 150px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .NoMatch--error_code {
+    font-size: 100px;
+  }
+}

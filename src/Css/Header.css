@@ -1,0 +1,56 @@
+header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+
+.Navbar--parent {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.28);
+  backdrop-filter: blur(7.5px);
+  position: relative;
+  z-index: 21;
+}
+
+.Navbar--firstBox {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+  border-bottom: 1px solid #ffffff33;
+}
+
+.Katran--logo {
+  margin: 20px 0;
+  cursor: pointer;
+}
+
+.Number__and__language {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.Number {
+  font-weight: 500;
+  font-size: 20px;
+  color: #fff;
+}
+
+@media screen and (max-width: 1024px) {
+  header {
+    height: 50vh;
+  }
+
+  .Katran--logo {
+    width: 132px;
+    margin: 10px 0;
+  }
+
+  .Navbar--firstBox {
+    border: none;
+  }
+}

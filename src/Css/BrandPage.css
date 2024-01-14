@@ -1,0 +1,12 @@
+.BrandPage__container {
+  width: 90%;
+  max-width: 1440px;
+  min-height: 45vh;
+  margin: 81px auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .BrandPage__container {
+    width: 90%;
+  }
+}

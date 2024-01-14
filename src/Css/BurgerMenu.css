@@ -1,0 +1,49 @@
+.BurgerMenu {
+  position: fixed;
+  right: -100%;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
+  transition: right 0.2s ease-in-out;
+  background-color: hsl(0, 0%, 100%);
+  z-index: 100;
+}
+
+.BurgerMenu.open {
+  right: 0%;
+}
+
+.BurgerMenu__header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.BurgerMenu__close--button {
+  /* width: 123px; */
+  padding: 0 10px;
+  height: 39px;
+  border-radius: 5px;
+  border: 0.5px solid #06364b;
+  outline: none;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+  cursor: pointer;
+  /* float: right; */
+}
+
+.BurgerMenu__items--parent {
+  padding: 3rem 20px;
+}
+
+.BurgerMenu__items {
+  text-align: right;
+  padding: 15px 0;
+  border-bottom: 1px dashed #000;
+  cursor: pointer;
+}

@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteRule . /index.html [L]
+  RewriteCond %{HTTP_HOST} ^www\.fishmarket\.am$ [NC]
+  RewriteRule ^(.*)$ https://fishmarket.am/$1 [L,R=301]
+
+  # Redirects
+  Redirect 301 /hy https://fishmarket.am
+  Redirect 301 /home https://fishmarket.am
+
+</IfModule>

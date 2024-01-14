@@ -1,0 +1,222 @@
+.DownloadApp--parent {
+  width: 100%;
+  background: #f7f8fa;
+  margin-top: 156px;
+  padding: 48px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap: 50px;
+  align-items: start;
+}
+
+.Download--title {
+  color: #000;
+
+  font-weight: 700;
+  font-size: 42px;
+}
+
+.Download--description {
+  width: 45%;
+  color: #000;
+  font-size: 16px;
+  text-transform: lowercase;
+  margin: 39px 0 42px 42px;
+}
+
+.DownloadApp--right__side {
+  position: relative;
+  height: calc(100% + 50px);
+  bottom: 0;
+}
+
+.DownloadApp__PhoneApp {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 200%;
+}
+
+.DownloadApp__KatranBlack {
+  position: absolute;
+  right: 50px;
+  top: 0;
+  z-index: 1;
+}
+
+.DownloadApp__ButtonAppStore {
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.DownloadApp__ButtonPlayMarket {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1120px) {
+  .DownloadApp__PhoneApp {
+    height: 200%;
+  }
+
+  .Download--title {
+    font-size: 38px;
+  }
+
+  .DownloadApp__ButtonAppStore {
+    width: 120px;
+  }
+
+  .DownloadApp__ButtonPlayMarket {
+    width: 120px;
+  }
+
+  .DownloadApp--parent {
+    gap: 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .DownloadApp--parent {
+    padding: 23px;
+    grid-template-columns: 40% 60%;
+  }
+
+  .DownloadApp__KatranBlack {
+    right: 0;
+  }
+
+  .Download--title {
+    font-size: 30px;
+  }
+
+  .Download--description {
+    font-size: 13px;
+    margin: 12px 0;
+    width: 100%;
+  }
+
+  .DownloadApp__ButtonAppStore {
+    width: 106px;
+  }
+
+  .DownloadApp__ButtonPlayMarket {
+    width: 106px;
+  }
+
+  .DownloadApp__KatranBlack {
+    width: 138px;
+  }
+
+  .DownloadApp--right__side {
+    height: calc(100% + 25px);
+  }
+
+  .DownloadApp__PhoneApp {
+    height: 270%;
+  }
+}
+
+@media screen and (max-width: 847px) {
+  .DownloadApp--parent {
+    grid-template-columns: 45% 55%;
+    margin-top: 100px;
+  }
+
+  .DownloadApp__PhoneApp {
+    height: 215%;
+    right: 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .DownloadApp--parent {
+    column-gap: 0;
+    grid-template-columns: 40% 60%;
+    margin-top: 100px;
+  }
+
+  .DownloadApp__PhoneApp {
+    height: 220%;
+    right: 70px;
+  }
+
+  .Download--title {
+    font-size: 20px;
+  }
+
+  .DownloadApp__KatranBlack {
+    width: 100px;
+  }
+
+  .DownloadApp__ButtonAppStore {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .DownloadApp__PhoneApp {
+    right: 10px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .DownloadApp--parent {
+    grid-template-columns: 50% 50%;
+  }
+
+  .DownloadApp__PhoneApp {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .DownloadApp__PhoneApp {
+    top: -50px;
+    right: 10px;
+  }
+  .DownloadApp__ButtonAppStore {
+    width: 80px;
+  }
+  .DownloadApp__ButtonPlayMarket {
+    width: 80px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Download--title {
+    font-size: 12px;
+  }
+
+  .Download--description {
+    font-size: 8px;
+    margin: 7px 0;
+  }
+
+  .DownloadApp__ButtonAppStore {
+    width: 70px;
+  }
+
+  .DownloadApp__ButtonPlayMarket {
+    width: 70px;
+  }
+
+  .DownloadApp__KatranBlack {
+    width: 80px;
+    right: 0;
+  }
+
+  .DownloadApp__PhoneApp {
+    top: -50px;
+    right: 20px;
+  }
+  .DownloadApp__ButtonAppStore {
+    width: 50px;
+  }
+
+  .DownloadApp__ButtonPlayMarket {
+    width: 50px;
+  }
+}

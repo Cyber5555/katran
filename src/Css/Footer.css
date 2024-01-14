@@ -1,0 +1,143 @@
+footer {
+  width: 100%;
+  background-color: #f9f9f9;
+  margin-top: 88px;
+}
+
+.Footer__container {
+  width: 90%;
+  max-width: 1440px;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 40px 0 30px;
+  gap: 20px;
+}
+
+.Footer__contents--Parent {
+  width: 20%;
+  min-width: 250px;
+  /* min-height: 250px; */
+}
+
+.Footer__contents--logo {
+  cursor: pointer;
+}
+
+.Footer__contents--Parent.first,
+.Footer__contents--Parent.second {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.Footer__contents--Parent.last {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  min-height: auto;
+}
+
+.Footer__social--parent {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 33.5px;
+  margin-top: 34px;
+}
+
+.Footer__download__app--parent {
+  margin-top: 23px;
+  margin-bottom: 21px;
+}
+
+.Footer__links {
+  color: #06364b;
+  cursor: pointer;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.Footer__download__app--info {
+  color: #06364b;
+  text-align: right;
+
+  font-weight: 300;
+  font-size: 14px;
+  letter-spacing: 0.98px;
+}
+
+.Footer__payment--parent {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 8px;
+}
+.Footer__payment--parent > img {
+  cursor: pointer;
+}
+
+.Footer__mail__phone__link {
+  color: #06364b;
+
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.Footer__copyright--app {
+  color: #06364b;
+  font-family: "Mariam700";
+  font-size: 12px;
+  letter-spacing: 0.84px;
+}
+
+#Footer__links__first_box {
+  margin-top: 32px;
+}
+
+.Footer__copyright--parent {
+  width: 100%;
+  margin-top: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Footer--tel {
+  padding-top: 10px;
+}
+
+#Footer--mail {
+  padding-top: 8px;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    margin-bottom: 55px;
+  }
+
+  .Footer__contents--Parent.last {
+    align-items: start;
+  }
+
+  .Footer__download__app--info {
+    text-align: left;
+  }
+
+  .Footer__container {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Footer__copyright--parent {
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+}

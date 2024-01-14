@@ -1,0 +1,319 @@
+.SingleProduct__single__section {
+  position: relative;
+  display: flex;
+  align-items: start;
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto 40px;
+
+  gap: 20px;
+}
+
+.SingleProduct__top__bar--container {
+  display: none;
+}
+
+.SingleProduct__single--arrow__back,
+.SingleProduct__single--favorite {
+  cursor: pointer;
+}
+
+.SingleProduct__single__image--parent {
+  position: relative;
+  display: grid;
+  flex-shrink: 0;
+  width: 550px;
+  height: 550px;
+  padding: 30px;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  background: #f9fafb;
+  place-items: center;
+}
+
+.SingleProduct__image--sale {
+  font-weight: 500;
+  font-size: 17px;
+  position: absolute;
+  top: 13px;
+  right: 13px;
+  display: grid;
+  min-width: 46px;
+  height: 46px;
+  color: #fff;
+  border-radius: 5px;
+  background: #e72971;
+  place-items: center;
+  padding: 0 5px;
+}
+
+.SingleProduct__single__image {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.SingleProduct__description--title {
+  font-size: 25px;
+  text-transform: capitalize;
+  color: #06364b;
+}
+
+.SingleProduct--gram {
+  font-size: 20px;
+  margin-top: 12px;
+  color: #06364b;
+}
+
+.SingleProduct--product_code {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  margin-top: 60px;
+  text-transform: capitalize;
+  color: #476e80;
+}
+
+.SingleProduct--made_in {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 300px;
+  text-transform: capitalize;
+  color: #476e80;
+}
+
+.SingleProduct--count {
+  font-size: 14px;
+  margin-top: 22px;
+  text-transform: capitalize;
+  color: #476e80;
+}
+
+.SingleProduct--old__price {
+  font-size: 12px;
+  height: 17px;
+  margin-top: 6px;
+  text-decoration: line-through;
+  color: #818181;
+}
+
+.SingleProduct--price {
+  font-weight: 500;
+  font-size: 32px;
+  margin-top: 11px;
+  margin-bottom: 18px;
+  color: #e72971;
+}
+
+.SingleProduct--description {
+  font-weight: 300;
+  font-size: 16px;
+  max-width: 100%;
+  margin-top: 24px;
+  word-break: keep-all;
+  color: #225166;
+}
+
+.SingleProduct--the_nutritional_value {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #06364b;
+}
+
+.SingleProduct__the_nutritional_value--parent {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 14px;
+  row-gap: 20px;
+}
+
+.SingleProduct__the_nutritional_value--span:not(:last-child) {
+  margin-right: 20px;
+  padding-right: 20px;
+  border-right: 1px solid #06364b4d;
+}
+
+.SingleProduct__the_nutritional_value--p:first-child {
+  font-size: 16px;
+  color: #708994;
+}
+
+.SingleProduct__the_nutritional_value--span__span:last-child {
+  font-size: 20px;
+  color: #06364b;
+}
+
+.SingleProduct__slider--parent {
+  display: flex;
+  overflow-x: scroll;
+  width: 550px;
+  padding: 12px 0 20px;
+  gap: 20px;
+}
+
+.SingleProduct__slider--items {
+  flex-shrink: 0;
+  width: 96px;
+  height: 96px;
+  padding: 5px;
+  cursor: pointer;
+  border: 1px solid #d6d6d6;
+  border-radius: 10px;
+  background: #f9fafb;
+}
+
+.SingleProduct__slider--images {
+  width: 100%;
+  height: 100%;
+}
+
+.SingleProduct__recommendation {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.SingleProduct__recommendation__title {
+  color: #06364b;
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.SingleProduct__change--count {
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (max-width: 1024px) {
+  .SingleProduct__single__image--parent {
+    width: 450px;
+    height: 450px;
+    /* margin-top: 30px; */
+  }
+
+  .SingleProduct__slider--parent {
+    width: 450px;
+  }
+
+  .SingleProduct__change--count {
+    display: none;
+  }
+
+  .SingleProduct__single__section {
+    width: 90%;
+  }
+
+  .SingleProduct--product_code {
+    width: 70%;
+    min-width: auto;
+  }
+
+  .SingleProduct--made_in {
+    width: 70%;
+    min-width: auto;
+  }
+
+  .SingleProduct__recommendation {
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .SingleProduct__top__bar--container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .SingleProduct__single__image__container {
+    width: 100%;
+  }
+
+  .SingleProduct__single__image--parent {
+    width: 85%;
+    height: fit-content;
+    margin: 0 auto;
+  }
+
+  .SingleProduct__slider--parent {
+    width: 85%;
+    margin: 0 auto;
+    padding: 12px 0 20px;
+  }
+
+  .SingleProduct--product_code {
+    margin-top: 23px;
+  }
+
+  .SingleProduct__recommendation {
+    margin-top: 55px;
+  }
+
+  .SingleProduct__single__section {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  .SingleProduct--the_nutritional_value {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .SingleProduct__single__image--parent {
+    width: 100%;
+    height: fit-content;
+    margin-top: 30px;
+  }
+
+  .SingleProduct__slider--parent {
+    width: 100%;
+  }
+
+  .SingleProduct__slider--items {
+    width: 71.684px;
+    height: 71.684px;
+  }
+
+  .SingleProduct__description--title {
+    font-size: 18px;
+  }
+
+  .SingleProduct__slider--parent {
+    margin-bottom: 2px;
+    padding: 12px 0 20px;
+  }
+
+  .SingleProduct__the_nutritional_value--parent {
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    border-right: none;
+  }
+
+  .SingleProduct__the_nutritional_value--span:not(:last-child) {
+    margin: 0;
+    padding: 0;
+    border-right: none;
+    border-bottom: 1px solid #06364b4d;
+  }
+
+  .SingleProduct__the_nutritional_value--span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px 0 !important;
+  }
+}

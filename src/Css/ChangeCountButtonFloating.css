@@ -1,0 +1,71 @@
+.ChangeCountButtonFloating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: fixed;
+  right: 10px;
+  bottom: 70px;
+  background-color: #06364b;
+  padding: 10px;
+  border-radius: 50px;
+  display: none;
+  z-index: 2;
+}
+
+.ChangeCountButtonFloating--parent {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.ChangeCountButtonFloating__minus {
+  width: 30.18px;
+  height: 30.18px;
+  border-radius: 50%;
+  background: #06364b;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.ChangeCountButtonFloating__plus {
+  width: 30.18px;
+  height: 30.18px;
+  border-radius: 50%;
+  background: #06364b;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  outline: none;
+}
+
+.ChangeCountButtonFloating__plus > span {
+  color: #fff;
+}
+
+.ChangeCountButtonFloating__minus > span {
+  color: #fff;
+}
+
+.ChangeCountButtonFloating__count {
+  border-radius: 100px;
+  /* border: 0.8px solid #e8e9eb; */
+  background: #fff;
+  width: 102px;
+  height: 30.18px;
+  display: grid;
+  place-items: center;
+  color: #06364b;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 1024px) {
+  .ChangeCountButtonFloating {
+    display: flex;
+  }
+}

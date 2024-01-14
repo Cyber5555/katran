@@ -1,0 +1,11 @@
+.HomePage--Container {
+  width: 90%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1024px) {
+  .HomePage--Container {
+    width: 90%;
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "homePage": {
+    "cordial": "Топ продаж",
+    "SeafoodReadyFood": "Морепродукты / Готовая еда"
+  },
+  "LoginPopup": {
+    "title": "Добро пожаловать",
+    "subTitle": "Введите ваши данные, чтобы войти в аккаунт",
+    "email": "Эл. почта",
+    "password": "Пароль",
+    "forgotPassword": "Забыли пароль?",
+    "haveAccount": "Еще нет учетный записи?",
+    "registration": "Регистрация",
+    "signIn": "Войти"
+  },
+  "ProductList": {
+    "select": "Сортировка",
+    "ByPopularity": "По дате добавления",
+    "CheapFirst": "Сначала дешевые",
+    "ExpensiveFirst": "Сначала дорогие",
+    "newProduct": "новые товары",
+    "productsCount": "товаров"
+  },
+  "Brands": {
+    "Brands": "Бренды"
+  },
+  "SingleProduct": {
+    "UnitOfMeasurement": "Единица измерения",
+    "WeRecommend": "Мы рекомендуем"
+  },
+  "Profile": {
+    "NewProducts": "Новые товары",
+    "PersonalInformation": "Личные данные",
+    "Favorites": "Избранное",
+    "Baskets": "Корзина",
+    "CurrentPurchases": "Текущие покупки",
+    "Archive": "Архив",
+    "Settings": "Настройки",
+    "Exit": "Выйти"
+  },
+  "Basket": {
+    "OrderNumber": "Номер заказа",
+    "FormingAnOrder": "Оформление заказа",
+    "Total": "Итого",
+    "NameSurname": "Имя и фамилия ",
+    "Phone": "Тел ",
+    "Pickup": "Самовывоз",
+    "Delivery": "Доставка",
+    "SelectDeliveryType": "Выберите способ доставки",
+    "DeliveryTime": "Время доставки",
+    "Region": "Регион",
+    "Address": "Адрес",
+    "Entrance": "Подъезд",
+    "Floor": "Этаж",
+    "IntercomNumber": "Номер домофона",
+    "AdditionalNotes": "Дополнительные замечания",
+    "CashPayment": "Оплата наличными",
+    "OnlinePayment": "Онлайн оплата",
+    "SelectPaymentMethod": "Выберите способ оплаты",
+    "SelectRegion": "Выберите регион",
+    "Information": "Вам необходимо зарегистрироваться или войти, чтобы совершить онлайн-платеж",
+    "Today": "Сегодня",
+    "Tomorrow": "Завтра",
+    "Pay": "Оплатить",
+    "Edit": "Редактировать",
+    "PaymentAmount": "Сумма к оплате",
+    "PaymentMethod": "Способ оплаты",
+    "Pick-upPoint": "Пункт выдачи"
+  },
+  "BasketPopup": {
+    "ThereAreItemsInYourCartWorth1": " В вашей корзине",
+    "ThereAreItemsInYourCartWorth2": "товара на сумму",
+    "Close": "Закрыть",
+    "Basket": "Корзина",
+    "Order": "Оформить"
+  },
+  "CheckedProductList": {
+    "Name": "Название",
+    "Price": "Цена",
+    "Discount": "Скидка",
+    "Quantity": "Количество",
+    "Sum": "Сумма"
+  },
+  "Settings": {
+    "CurrentPassword": "Текущий пароль ",
+    "NewPassword": "Новый пароль ",
+    "RepeatPassword": "Повторите пароль ",
+    "Save": "Сохранить"
+  },
+  "DownloadApp": {
+    "Download": "Скачайте наше приложение"
+  },
+  "ProductsInMainPage": {
+    "New": "Новинка",
+    "NotAvailable": "Нет в наличии"
+  },
+  "Register": {
+    "RetailBuyer": "Розничный покупатель",
+    "WholesaleBuyer": "Оптовый покупатель",
+    "IAgree": "Нажимая кнопку «Зарегистрироваться», вы соглашаетесь с политикой обработки данных.",
+    "CompanyName": "Название компании",
+    "INN": "ИНН",
+    "Bank": "Банк",
+    "BankAccount": "Банковский счет",
+    "LegalAddress": "Юридический адрес"
+  },
+  "Archive": {
+    "Date": "Дата",
+    "OrderConfirmed": "Заказ подтвержден",
+    "Time": "Время",
+    "OrderStatus": "Статус заказа",
+    "OrderDetails": "Информация о покупке",
+    "SaveCopy": "Сохранить копию"
+  },
+  "ArchiveInfo": {
+    "DeliveryMethod": "Способ доставки"
+  },
+  "TabNavigator": {
+    "Seafood": "Морепродукты"
+  },
+  "Search": {
+    "SiteSearch": "Поиск по сайту",
+    "Result": "Результаты поиска"
+  }
+}

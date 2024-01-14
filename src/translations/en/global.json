@@ -1,0 +1,125 @@
+{
+  "homePage": {
+    "cordial": "Best Selling",
+    "SeafoodReadyFood": "Seafood / Ready food"
+  },
+  "LoginPopup": {
+    "title": "Welcome",
+    "subTitle": " Enter your details to log in to your account",
+    "email": "E-mail",
+    "password": "Password",
+    "forgotPassword": "Forgot password?",
+    "haveAccount": "Don't have an account yet?",
+    "registration": "Register",
+    "signIn": "Sign In"
+  },
+  "ProductList": {
+    "select": "Sorting",
+    "ByPopularity": "By date added",
+    "CheapFirst": "Cheap first",
+    "ExpensiveFirst": "Expensive first",
+    "newProduct": "new products",
+    "productsCount": "products"
+  },
+  "Brands": {
+    "Brands": "Brands"
+  },
+  "SingleProduct": {
+    "UnitOfMeasurement": "Unit of measurement",
+    "WeRecommend": "We recommend"
+  },
+  "Profile": {
+    "NewProducts": "New products",
+    "PersonalInformation": "Personal information",
+    "Favorites": "Favorites",
+    "Baskets": "Basket",
+    "CurrentPurchases": "Current purchases",
+    "Archive": "Archive",
+    "Settings": "Settings",
+    "Exit": "Exit"
+  },
+  "Basket": {
+    "OrderNumber": "Order",
+    "FormingAnOrder": "Forming an order",
+    "Total": "Total",
+    "NameSurname": "Name, surname ",
+    "Phone": "Phone ",
+    "Pickup": "Pickup",
+    "Delivery": "Delivery",
+    "SelectDeliveryType": "Select delivery type",
+    "DeliveryTime": "Delivery time",
+    "Region": "Region",
+    "Address": "Address",
+    "Entrance": "Entrance",
+    "Floor": "Floor",
+    "IntercomNumber": "Intercom number",
+    "AdditionalNotes": "Additional Notes",
+    "CashPayment": "Cash payment",
+    "OnlinePayment": "Online payment",
+    "SelectPaymentMethod": "Select a Payment Method",
+    "SelectRegion": "Select a Region",
+    "Information": "You need to register or login to make an online payment",
+    "Today": "Today",
+    "Tomorrow": "Tomorrow",
+    "Pay": "Pay",
+    "Edit": "Edit",
+    "PaymentAmount": "Payment amount",
+    "PaymentMethod": "Payment method",
+    "Pick-upPoint": "Pick-up point"
+  },
+  "BasketPopup": {
+    "ThereAreItemsInYourCartWorth1": "There are",
+    "ThereAreItemsInYourCartWorth2": "items in your cart worth",
+    "Close": "Close",
+    "Basket": "Basket",
+    "Order": "Order"
+  },
+  "CheckedProductList": {
+    "Name": "Name",
+    "Price": "Price",
+    "Discount": "Discount",
+    "Quantity": "Quantity",
+    "Sum": "Sum"
+  },
+  "Settings": {
+    "CurrentPassword": "Current Password ",
+    "NewPassword": "New Password ",
+    "RepeatPassword": "Repeat password ",
+    "Save": "Save"
+  },
+  "DownloadApp": {
+    "Download": "Download our app"
+  },
+  "ProductsInMainPage": {
+    "New": "New",
+    "NotAvailable": "Not available"
+  },
+  "Register": {
+    "RetailBuyer": "Retail buyer",
+    "WholesaleBuyer": "Wholesale buyer",
+    "IAgree": "By clicking the «Register» button, you agree to the data processing policy",
+    "CompanyName": "Company name",
+    "INN": "INN",
+    "Bank": "Bank",
+    "BankAccount": "Bank account",
+    "LegalAddress": "Legal address"
+  },
+  "Archive": {
+    "Date": "Дата",
+    "OrderConfirmed": "Order confirmed",
+    "Time": "Time",
+    "OrderStatus": "Order status",
+    "OrderDetails": "Order details",
+    "SaveCopy": "Save a copy"
+  },
+  "ArchiveInfo": {
+    "DeliveryMethod": "Delivery method"
+  },
+  "TabNavigator": {
+    "Seafood": "Seafood"
+  },
+  "Search": {
+    "SiteSearch": "Site search",
+    "Result": "Search results"
+  }
+}

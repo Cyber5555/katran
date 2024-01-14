@@ -1,0 +1,120 @@
+.LoginPopup {
+  display: none;
+}
+
+.LoginPopup.open {
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #04151dab;
+  inset: 0;
+}
+
+.LoginPopup--Container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 22px 34px 45px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0px 4px 9px 0px rgba(0, 0, 0, 0.25);
+}
+
+.LoginPopup--title {
+  font-weight: 700;
+  font-size: 25px;
+  margin-top: 10px;
+  margin-bottom: 12px;
+  text-align: center;
+  text-transform: capitalize;
+  color: #06364b;
+}
+
+.LoginPopup--info {
+  font-size: 15px;
+  margin-bottom: 40px;
+  color: rgba(30, 67, 83, 0.6);
+  text-align: center;
+}
+
+.LoginPopup--forgot__password {
+  font-size: 15px;
+  width: 100%;
+  margin-bottom: 59px;
+  text-align: left;
+  color: #1e4353;
+  text-decoration-line: underline;
+}
+
+.LoginPopup--have_account_or_signIn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  width: 100%;
+}
+
+.LoginPopup--have_account {
+  font-size: 15px;
+  color: rgba(30, 67, 83, 0.83);
+}
+
+.LoginPopup--register {
+  font-size: 15px;
+  display: block;
+  cursor: pointer;
+  margin-top: 10px;
+  color: rgba(30, 67, 83, 0.83);
+  text-decoration-line: underline;
+}
+
+.LoginPopup__borderButton {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 11px 87px;
+  cursor: pointer;
+  text-transform: capitalize;
+  color: #06364b;
+  border: 0.5px solid #06364b;
+  border-radius: 20px;
+  outline: none;
+  background: #fff;
+}
+
+@media screen and (max-width: 768px) {
+  .LoginPopup--Container {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 622px) {
+  .LoginPopup--have_account {
+    text-align: center;
+  }
+  .LoginPopup--have_account_or_signIn {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .LoginPopup--forgot__password {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  .LoginPopup--register {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 11px 74px;
+    cursor: pointer;
+    text-transform: capitalize;
+    color: #06364b;
+    border: 0.5px solid #06364b;
+    border-radius: 20px;
+    outline: none;
+    background: #fff;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+}

@@ -1,0 +1,30 @@
+.ControllerPage--title {
+  font-size: 30px;
+  margin: 0 auto 34px;
+  color: #06364b;
+}
+
+.ControllerPage--parent {
+  display: flex;
+  width: 90%;
+  max-width: 1440px;
+  margin: 81px auto 0;
+  gap: 20px;
+}
+
+.Router__container {
+  width: calc(100% - 300px);
+  min-height: calc(100vh - 524px);
+}
+
+
+@media screen and (max-width: 1024px) {
+  .Router__container {
+    width: 100%;
+  }
+
+  .ControllerPage--parent {
+    width: 90%;
+  }
+
+}

@@ -1,0 +1,14 @@
+.SubCategoryBottomSheet {
+  margin-top: 20px;
+}
+.SubCategoryBottomSheet--header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.SubCategoryBottomSheet--item__text {
+  margin-bottom: 10px;
+  cursor: pointer;
+}

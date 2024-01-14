@@ -1,0 +1,30 @@
+.ProductsInMainPageFavorite__items--parent {
+  position: relative;
+  overflow: hidden;
+  min-width: 18%;
+  max-width: 19%;
+  height: max-content;
+  padding: 6px 4px;
+  cursor: pointer;
+  border-radius: 10px;
+  background: #f9fafb;
+}
+
+.ProductsInMainPageFavorite__items--parent:hover {
+  background: #fff;
+  box-shadow: 0px 2px 11px 0px rgba(147, 147, 147, 0.31);
+}
+
+@media screen and (max-width: 1333px) {
+  .ProductsInMainPageFavorite__items--parent {
+    min-width: 19%;
+    max-width: 23.5%;
+  }
+}
+
+@media screen and (max-width: 1190px) {
+  .ProductsInMainPageFavorite__items--parent {
+    min-width: 19%;
+    max-width: 32%;
+  }
+}

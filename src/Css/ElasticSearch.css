@@ -1,0 +1,12 @@
+.ElasticSearch {
+  display: none;
+}
+
+.ElasticSearch.opened {
+  display: block;
+  background: rgba(4, 21, 29, 0.67);
+  position: fixed;
+  inset: 0;
+  z-index: 15;
+  cursor: pointer;
+}
